@@ -11,7 +11,7 @@ $(document).ready(function () {
     //console.log(city);
 
     $.get(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=0eefe33aacef12b81dd267d7e3052be7`,
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=0eefe33aacef12b81dd267d7e3052be7`,
       function (data) {
         weather = data;
         console.log(data);
